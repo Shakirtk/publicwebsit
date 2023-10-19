@@ -1,0 +1,223 @@
+/*header*/
+.logo{
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+.btn-outline-success{
+    color: rgb(4, 0, 26);
+    border: 2px solid rgb(4, 0, 26);
+}
+.btn-outline-success:hover{
+    color: white;
+    background-color: rgb(4, 0, 26);
+    border: none;
+}
+.slide{
+    height: 650px;
+}
+.cap1,
+.cap3{
+    color: aqua;
+}
+.cap2{
+    color: rgb(238, 255, 0);
+}
+.Future{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.feature-section .feature-box{
+    background-color: transparent;
+    border: 2.4px solid rgb(71, 175, 26);
+    padding: 80px 0;
+    transition: all 0.3s;
+}
+.feature-section .features-icon-border{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3.2px solid rgb(17, 171, 3);
+    padding: 20.8px;
+    display: inline-block;
+    cursor: pointer;
+}
+.feature-section .feature-box .features-icon{
+    height: 104px;
+    width: 104px;
+    background-color: rgb(17, 171, 3);
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-section .features-icon-border:hover{
+    background-color: rgb(0, 47, 0);
+    border-color: rgb(0, 47, 0);
+}
+
+
+
+
+
+#order{
+    align-items: center;
+}
+#abt{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: -90px;
+}
+.Read-more{
+    color: rgb(0, 47, 0);
+    background-color: rgb(254, 220, 0);
+    border: 2px solid rgb(254, 220, 0);
+    border-radius: 5px;
+}
+.Read-more:hover{
+    color: rgb(254, 220, 0);
+    background-color: rgb(0, 47, 0);
+    border: 2px solid rgb(0, 47, 0);
+
+}
+.landing-about-section{
+    background: url("../MyWeb/images/about/about-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 9rem 0;
+}
+.landing-about-section p{
+    color: rgb(0, 48, 0);
+    margin-bottom: 2rem;
+}
+
+
+#okbtn{
+    border: solid 2px rgb(3, 62, 255);
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(3, 93, 238);
+    width: 100%;
+    height: 45px;
+    padding-top: 8px;
+    border-radius: 6px;
+}
+.popup{
+    width: 300px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+#okbtn{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(52, 85, 255);
+    border: 2px solid rgb(42, 78, 255);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/*footer*/
+.first img{
+    width: 100px;
+    height: 100px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first-1{
+    display: flex;
+}
+.first-1 select{
+    padding: 10px;
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(5, 0, 35);
+    background-color: rgb(0, 242, 0);
+}
+.first-1 select:hover{
+    color: white;
+    background-color: rgb(0, 42, 0);
+
+}
+.second h4{
+    align-items: left;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin-left: 0;
+
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.9ram;
+}
+.abt{
+    height: 14rem;
+    width: 15rem;
+    margin-top: 40px;
+}
+.loc{
+
+}
+.map{
+    margin-top: 0;
+    width: 100%;
+}
+.footer{
+    height: 500px;
+    margin-top: 50px;
+    background-color: rgb(230, 230, 230);
+    padding: 12px;
+}
+.footh1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
